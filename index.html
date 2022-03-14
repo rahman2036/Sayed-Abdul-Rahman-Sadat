@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>cssform.html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <h1>Student Registeration Form</h1>
+        <h1 class="line"></h1>
+        <form class="" action="index.html" method="post">
+            Firstname: <br>
+            <input type="text" class="input" name="Fname" placeholder="Firstname"> <br><br>
+            Middlename: <br>
+            <input type="text" class="input" name="Mname" placeholder="Middlename"> <br><br>
+            Lastname: <br>
+            <input type="text" class="input" name="Lname" placeholder="Lastname"> <br><br>
+            Course: <select class="" name="Courses">
+            <option value="Data Structure">Data Structure</option>
+            <option value="Statistics">Statistics</option>
+            <option value="Web Programming">Web Programming</option>
+            <option value="Islamic Studies">Islamic Studies</option>
+            <option value="English">English</option>
+            <option value="Computer Architecture">Computer Architecture</option>
+            </select><br><br>
+            Gender: <br>
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other <br><br>
+            Phone: <br>
+            <input type="tel" class="input" name="Phonecode" value="+93"> <br><br>
+            <input type="tel" class="input" name="PhoneNumber" placeholder="phone no."><br><br>
+            Current Address: <br>
+            <textarea name="address" class="input" rows="6" cols="40" placeholder="Current Address"></textarea> <br><br>
+            Email: <br>
+            <input type="email" class="input" name="Email" placeholder="Enter Email"> <br><br>
+            Password: <br>
+            <input type="password" class="input" name="password" value="" 
+            pattern="[A-Z^a-z^0-9](?=.*?[!@#$%^&*-+?\|>]).{5,}" 
+            title="your Password must Conatin at least 5 Charaters 1 symbol and 2 digits" 
+            placeholder="Enter Password"> <br><br>
+            Re-type Password: <br>
+            <input type="password" class="input" name="password" value="" placeholder="Re-type Password"> <br>
+            <input type="submit" style="background-color: lightgreen;" class="input" name="register" value="Register"><br><br>
+
+        </form>
+
+
+    </div>
+    <div class="right"></div>
+    
+
+</body>
+</html>
